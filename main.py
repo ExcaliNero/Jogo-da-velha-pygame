@@ -2,8 +2,6 @@ import pygame
 from pygame.locals import MOUSEBUTTONDOWN, Rect, QUIT
 from sys import exit
 
-teste teste
-
 def desenhar_tabu():
     pygame.draw.line(tela, (255, 255, 255), (200, 0), (200, 600), 10)
     pygame.draw.line(tela, (255, 255, 255), (400, 0), (400, 600), 10)
